@@ -1,0 +1,17 @@
+# Python and Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Local data and trained model artefacts
+data/
+*.h5
+*.keras
+*.ckpt
+*.weights.h5
+
+# OS metadata
+.DS_Store
+Thumbs.db
