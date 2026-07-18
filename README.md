@@ -104,4 +104,3 @@ Python · TensorFlow/Keras · OpenCV · NumPy · scikit-learn · Matplotlib
 
 - Ronneberger, O., Fischer, P., Brox, T. (2015). *U-Net: Convolutional Networks for Biomedical Image Segmentation.* MICCAI 2015.
 - Buda, M., Saha, A., Mazurowski, M. A. (2019). *Association of genomic subtypes of lower-grade gliomas with shape features automatically extracted by a deep learning algorithm.* Computers in Biology and Medicine, 109, 218-225.
-
