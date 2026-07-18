@@ -16,7 +16,7 @@ For a brain MRI, the model doesn't just answer "is there a tumor?" — it answer
 
 ## Repository contents
 
-- `notebooks/brain_tumor_segmentation_unet.ipynb` — end-to-end data preparation, U-Net training, evaluation, and visualisation workflow
+- `notebooks/brain_tumor_segmentation_unet.ipynb` — runnable reference implementation of the documented data preparation, U-Net training, evaluation, and visualisation workflow
 - `training_curves.png`, `predicted_masks.png`, `tumor_overlay.png` — figures from the recorded run described below
 - `requirements.txt` — Python dependencies
 
@@ -87,7 +87,7 @@ The predicted tumor region (red) overlaid on the original MRI. 4 of 5 samples sh
 
 ### Reproducibility note
 
-The scores above are the recorded results of the original CPU run. A fresh run can vary with the train/test split, package versions, hardware, and random initialization; it should be treated as a reproducibility exercise rather than a clinical benchmark.
+The notebook is a clean, runnable implementation of the documented approach. The scores above are the recorded results of the original CPU run. A fresh run can vary with the train/test split, package versions, hardware, and random initialization; it should be treated as a reproducibility exercise rather than a clinical benchmark.
 
 ## Tech stack
 
@@ -104,3 +104,4 @@ Python · TensorFlow/Keras · OpenCV · NumPy · scikit-learn · Matplotlib
 
 - Ronneberger, O., Fischer, P., Brox, T. (2015). *U-Net: Convolutional Networks for Biomedical Image Segmentation.* MICCAI 2015.
 - Buda, M., Saha, A., Mazurowski, M. A. (2019). *Association of genomic subtypes of lower-grade gliomas with shape features automatically extracted by a deep learning algorithm.* Computers in Biology and Medicine, 109, 218-225.
+
